@@ -14,5 +14,7 @@ namespace CheeseMVC.ViewModels
         [Display(Name = "Cheese Category")]
         public string CategoryName { get; set; }
         public object Name { get; internal set; }
+
+        public AddCategoryViewModel() { }
     }
 }
